@@ -1,0 +1,30 @@
+h1{
+    /* color: #r r g g b b */
+    color: #444444;
+}
+
+/* HEXADECIMAL NUMBER (hexa + decimal)=> hexa means 8 and decimal means 10 ==>16
+# _ _ _ _ _ _
+   Red Green Blue #RGB
+ 0,1,2,3,4,5,6,7,8,9,a, b ,c,d,e,f
+
+ There are around 16.7 millions colors are made by hexadecimal color
+ */
+
+ /* CSS color Property
+The color property is used to specify the text color. It accepts color values as color name, HEX, RGB, RGBA, HSL, or HSLA values. This property plays a crucial role in defining text appearance, ensuring readability, and enhancing the overall design aesthetics of web content.
+
+Syntax
+color: color | initial | inherit; */
+
+/* color::
+dark.....
+light....
+medium....
+deep....
+ */
+
+ /* RGBA COLOR 
+ #_ _ _ _ _
+ R G B (alpha/transparency)
+ */

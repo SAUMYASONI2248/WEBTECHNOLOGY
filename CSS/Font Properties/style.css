@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+
+div{
+    font-size: 100px;
+    font-weight: bold;
+    font-style: oblique 25deg;
+     /* font-family: "Ubuntu", sans-serif; */
+     /* font-family :"dancing script",cursive */
+      font-family: "Dancing Script", cursive;
+
+}
+
+/* CDN CONTENT DELIVERY NETWORK 
+  
+*/

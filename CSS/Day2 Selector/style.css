@@ -1,0 +1,46 @@
+/* 
+Simple selector:-
+1. Tagname Selector/ Element Selector
+2. Id Selector(#)
+3. Class Selector(.)
+ 4. Universal Selector/ Wildcard Selector(*):- CSS Bolierplate code aaur iski priority sbse kam hoti h 
+ 5.Grouping Selector(,)
+
+
+div#d1{
+    color: red;
+}
+ 0,1,0 
+.p{
+    color: red;
+}
+ 0,1,0 
+.whatever{
+    color: darkgreen;
+}
+agar dono ki priority same h toh check kiya jaega ki neeche kon sa likha h jo neeche likha hoga use hi apply kr diya jaega mtlb green color show hoga 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: orange;
+}
+
+div#d1{
+    color: purple;
+}
+    */
+
+    #d2,#p2,span{
+        color: tomato;
+    }
+    /* Grouping selector ki priority nhii hotii id ki priority hoti h isility 1,0,0 h specificity*/
+
+    /* According to Priority
+    1.important(!important)
+    2.Id Selector(#)
+    3.class Selector(.)
+    4.tagname/Element Selector
+    5.Universal Selector
+    */

@@ -1,0 +1,46 @@
+/* main :first-child{
+
+    color:orange;
+}
+
+main :last-child{
+    color: blue;
+}
+
+main :nth-child(2){
+    color: magenta;
+}
+
+main :nth-last-child(2){
+    color: mediumseagreen;
+} */
+/* 
+main :first-child :first-child{
+    color: red;
+}
+
+main :nth-child(2) :nth-child(2){
+    color: blue;
+}
+
+main :nth-last-child(1) :nth-last-child(1){
+    color: brown;
+} */
+
+/* PSEUDO CLASS SELECTOR
+:first-of-type
+:last-of-type
+:nth-of-type
+:nth-last-of-type( ) */
+
+main span:first-of-type{
+    color: cadetblue;
+}
+
+main span:last-of-type{
+    color: green;
+}
+
+main span:nth-of-type(2){
+    color: purple;
+}

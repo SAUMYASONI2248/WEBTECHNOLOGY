@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    width: 1000px;
+    height: 600px;
+    border: 3px solid black;
+    background-image: linear-gradient(to bottom,transparent,30%,rgba(0,0,0,0.714)),url(https://i.pinimg.com/736x/41/92/8f/41928fa1232d65aacddf21c0276d2733.jpg);
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+}

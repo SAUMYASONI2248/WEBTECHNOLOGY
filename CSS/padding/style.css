@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+section{
+    min-height: inherit;
+    background-color: wheat;
+}
+
+section #container{
+    width: 1200px;
+    margin: auto;
+    min-height: inherit;
+    background-color: blueviolet;
+
+}
+
+section .card{
+    width:350px ;
+    height:380px;
+    box-shadow: 0px 6.4px 1.8rem rgba(28,28,28,0.12);
+    padding:10px;
+    border-radius: 10px;
+
+}
+
+section .card .profile{
+    height: 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+}
+
+section .c1 .profile{
+    background-image: url(./assets/1.jpg);
+}
+
+section .c2 .profile{
+    background-image: url(./assets/2.jpg);
+}
+
+section .c3 .profile{
+    background-image: url(./assets/3.jpg);
+}
+
+section .card .info{
+    font-weight: 35%;
+}
+
+section .info h3{
+    font-weight: 500;
+    font-size: 19px;
+    margin-block: 10px;
+}

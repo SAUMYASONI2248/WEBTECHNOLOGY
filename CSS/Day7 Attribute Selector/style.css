@@ -1,0 +1,29 @@
+/* /* h1[title="Heading flex product content"]{
+
+    color: red;
+} */
+
+/* h1[title^="Heading"]{
+
+    color:red;
+}
+
+section >h1[title^="random"]{
+    color: blue;
+}
+
+h1[title^="saumya"]{
+    color: hotpink;
+}
+
+ section h1[title$="content2"]{
+    color:aqua;
+ } */ 
+/* 
+section h1[title~="product2"]{
+    color: cadetblue;
+} */
+
+section h1[title*="heading2"]{
+    color: tomato;
+}

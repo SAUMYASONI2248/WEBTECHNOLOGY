@@ -1,0 +1,39 @@
+/* Direct Child selector */
+/* main > .p1{
+    color: brown;
+}
+
+section > .p1{
+    color: blueviolet;
+}
+
+main > .p2 {
+    color: magenta;
+}
+
+main > article > .p3{
+    color: chartreuse;
+} */
+
+
+/* 
+main .d1 {
+    color: red;
+}
+
+main .d2 {
+    color: blue;
+} */
+
+/* article p + span + div{
+    color: orange;
+} 
+/* this selector is known as immediate sibling selector */
+/* 
+article .p1 ~div{
+    color: hotpink;
+} */ 
+
+article .p1 ~ .p3{
+    color: magenta;
+}

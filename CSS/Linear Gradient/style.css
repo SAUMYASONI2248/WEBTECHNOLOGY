@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    font-size: 100px;
+    font-weight: bold;
+     background-image: linear-gradient(to right, red,yellow); 
+    color: transparent;
+    background-clip: text;
+
+}
