@@ -75,8 +75,10 @@ console.log("result:",result);
 
 
 
+
+//  ! Example of rest and spread operator in function
 /**
- * ! Example of rest and spread operator in function
+ * 
  
 const selectedItem1 = [
   {
@@ -125,11 +127,11 @@ const calculate = (...items) =>{
 
 const x = calculate(...selectedItem1, ...selectedItem2);
 console.log("x:",x);
-*/
+ 
+*/ 
 
 
-/**
- * ! Example of Spread Operator inside object
+ // ! Example of Spread Operator inside object
 
 
 const user = {
@@ -151,7 +153,7 @@ employee.username = "Sid";
 employee.address.state = "Banglore";
 console.log("user:",user);
 console.log("employee:",employee);
- */
+ 
 
 
 
