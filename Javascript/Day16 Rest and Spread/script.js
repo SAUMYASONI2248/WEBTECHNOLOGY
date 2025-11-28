@@ -1,4 +1,3 @@
-
 /**
  * ! Rest Operator in Object Destructuring
  
@@ -73,3 +72,87 @@ const total = (...arr) =>{
 const result = total(10,20,30,40,50,60);
 console.log("result:",result);
 */
+
+
+
+/**
+ * ! Example of rest and spread operator in function
+ 
+const selectedItem1 = [
+  {
+    itemName: "Milk",
+    price: 35,
+    rating: 4.5
+  },
+ {
+    itemName: "Coke",
+    price: 40,
+    rating: 4.1
+  },
+  {
+    itemName: "Superyou Wafer",
+    price: 52,
+    rating: 4.2
+  }
+]
+
+const selectedItem2 = [
+  {
+    itemName: "Cake",
+    price: 615,
+    rating: 4.2
+  },
+ {
+    itemName: "Rajma Chawal",
+    price: 160,
+    rating: 4.1
+  },
+  {
+    itemName: "Namkeen Lassi",
+    price: 90,
+    rating: 3.9
+  }
+]
+
+const calculate = (...items) =>{
+  const total = items.reduce((acc,element) =>{
+      acc = acc + element.price;
+      return acc;
+    },0)
+
+    return total;
+} 
+
+const x = calculate(...selectedItem1, ...selectedItem2);
+console.log("x:",x);
+*/
+
+
+/**
+ * ! Example of Spread Operator inside object
+
+
+const user = {
+  username: "Tinku",
+  age: 22,
+  isGraduated: true,
+  address:{
+    state: "UP"
+  }
+}
+
+const employee = {
+                    skill : "Fullstack Developer",
+                    salary: "4LPA",
+                    ...user
+                  }
+
+employee.username = "Sid";
+employee.address.state = "Banglore";
+console.log("user:",user);
+console.log("employee:",employee);
+ */
+
+
+
+
